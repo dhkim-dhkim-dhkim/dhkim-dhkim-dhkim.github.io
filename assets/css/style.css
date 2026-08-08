@@ -85,6 +85,11 @@ body {
   color: var(--link);
 }
 
+.nav-links a.active {
+  color: var(--text);
+  font-weight: 700;
+}
+
 
 /* ---------- Typography ---------- */
 
@@ -125,6 +130,11 @@ a {
   padding-bottom: 70px;
 }
 
+.page-lead {
+  color: var(--muted);
+  font-size: 18px;
+}
+
 
 /* ---------- Hero ---------- */
 
@@ -163,6 +173,16 @@ a {
 
 .intro {
   max-width: 650px;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  color: var(--muted);
+
+  font-size: 14px;
+
+  margin-top: 0;
+  margin-bottom: 18px;
 }
 
 .social-links {
@@ -171,7 +191,7 @@ a {
 
   gap: 9px 18px;
 
-  margin-top: 22px;
+  margin-top: 18px;
 }
 
 .social-links a {
@@ -437,6 +457,13 @@ a {
 }
 
 
+/* ---------- Outside Research ---------- */
+
+.outside-page {
+  max-width: 800px;
+}
+
+
 /* ---------- Footer ---------- */
 
 .site-footer {
@@ -471,6 +498,8 @@ a {
     margin-top: 8px;
 
     gap: 18px;
+
+    flex-wrap: wrap;
   }
 
   .hero {
