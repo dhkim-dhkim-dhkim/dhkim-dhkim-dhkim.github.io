@@ -102,11 +102,11 @@ title:
   <div class="education-item">
 
     <div class="education-year">
-      2026 – Present
+      Sep 2026 – Present
     </div>
 
     <div class="education-content">
-      <strong>M.S. in Electronic Engineering</strong><br>
+      <strong>M.S. Student</strong><br>
       Hanyang University
     </div>
 
@@ -116,7 +116,7 @@ title:
   <div class="education-item">
 
     <div class="education-year">
-      2021 – 2026
+      Mar 2021 – Aug 2026
     </div>
 
     <div class="education-content">
