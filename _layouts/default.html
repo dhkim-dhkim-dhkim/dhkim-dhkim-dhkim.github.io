@@ -38,21 +38,27 @@
 
         <a
           href="/"
-          {% if page.url == "/" %}class="active"{% endif %}
+          {% if page.url == "/" %}
+            style="font-weight: 700;"
+          {% endif %}
         >
           Home
         </a>
 
         <a
           href="/research/"
-          {% if page.url == "/research/" %}class="active"{% endif %}
+          {% if page.url == "/research/" %}
+            style="font-weight: 700;"
+          {% endif %}
         >
           Research
         </a>
 
         <a
           href="/publications/"
-          {% if page.url == "/publications/" %}class="active"{% endif %}
+          {% if page.url == "/publications/" %}
+            style="font-weight: 700;"
+          {% endif %}
         >
           Publications
         </a>
@@ -67,7 +73,9 @@
 
         <a
           href="/outside-research/"
-          {% if page.url == "/outside-research/" %}class="active"{% endif %}
+          {% if page.url == "/outside-research/" %}
+            style="font-weight: 700;"
+          {% endif %}
         >
           Outside Research
         </a>
