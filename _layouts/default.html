@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    {% if page.title %}
+      {{ page.title }} | Donghyun Kim
+    {% else %}
+      Donghyun Kim
+    {% endif %}
+  </title>
+
+  <meta
+    name="description"
+    content="Personal academic website of Donghyun Kim"
+  >
+
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/style.css' | relative_url }}"
+  >
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+
+      <a class="site-name" href="/">
+        Donghyun Kim
+      </a>
+
+      <nav class="nav-links">
+        <a href="/">Home</a>
+        <a href="/research/">Research</a>
+        <a href="/publications/">Publications</a>
+        <a href="/cv/">CV</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container">
+
+      <p>
+        © {{ site.time | date: "%Y" }} Donghyun Kim
+      </p>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
