@@ -1,0 +1,13 @@
+title: Donghyun Kim
+description: Personal academic website of Donghyun Kim
+
+theme: minima
+
+author:
+  name: Donghyun Kim
+  email: dhkim.dhkim.dhkim@gmail.com
+
+header_pages:
+  - research.md
+  - publications.md
+  - cv.md
