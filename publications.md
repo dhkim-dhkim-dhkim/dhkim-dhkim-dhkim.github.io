@@ -4,68 +4,115 @@ title: Publications
 permalink: /publications/
 ---
 
-<div class="page">
+<div class="page publications-page">
 
-<h1>Publications</h1>
-
-
-<h2>Journal Articles</h2>
-
-<div class="pub-entry">
-
-  <p class="pub-title">
-    Suppressing Stitching Errors in Full-Sensor-Plane Color Routers
-    via Optical Structural Similarity
-  </p>
-
-  <p class="pub-authors">
-    <strong>Donghyun Kim</strong>, J. Han, S. Lee,
-    M. S. Jang, and H. Chung
-  </p>
-
-  <p class="pub-venue">
-    <em>Nanophotonics</em>, Vol. 15, No. 14, 2026.
-  </p>
-
-  <p class="pub-links">
-    <a
-      href="https://doi.org/10.1002/nap2.70220"
-      target="_blank"
-    >
-      [Paper]
-    </a>
-  </p>
-
-</div>
+  <h1>Publications</h1>
 
 
-<h2>Preprints</h2>
+  <h2>Journal Articles</h2>
 
-<div class="pub-entry">
+  {% for pub in site.data.publications.journal %}
 
-  <p class="pub-title">
-    Scaling Limits of Multichannel Spectral Routers
-    for Snapshot Imaging
-  </p>
+  <div class="publication-entry">
 
-  <p class="pub-authors">
-    J. Han, S. Lee, <strong>Donghyun Kim</strong>,
-    and H. Chung
-  </p>
+    <div class="publication-image">
 
-  <p class="pub-venue">
-    arXiv preprint, 2026.
-  </p>
+      <img
+        src="{{ pub.image | relative_url }}"
+        alt="{{ pub.title }}"
+      >
 
-  <p class="pub-links">
-    <a
-      href="https://arxiv.org/abs/2607.23508"
-      target="_blank"
-    >
-      [arXiv]
-    </a>
-  </p>
+    </div>
 
-</div>
+
+    <div class="publication-info">
+
+      <div class="publication-title">
+        {{ pub.title }}
+      </div>
+
+      <div class="publication-authors">
+        {{ pub.authors }}
+      </div>
+
+      <div class="publication-venue">
+        {{ pub.venue }}
+      </div>
+
+      <div class="publication-links">
+
+        {% for link in pub.links %}
+
+          <a
+            href="{{ link.url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            [{{ link.label }}]
+          </a>
+
+        {% endfor %}
+
+      </div>
+
+    </div>
+
+  </div>
+
+  {% endfor %}
+
+
+
+  <h2>Preprints</h2>
+
+  {% for pub in site.data.publications.preprint %}
+
+  <div class="publication-entry">
+
+    <div class="publication-image">
+
+      <img
+        src="{{ pub.image | relative_url }}"
+        alt="{{ pub.title }}"
+      >
+
+    </div>
+
+
+    <div class="publication-info">
+
+      <div class="publication-title">
+        {{ pub.title }}
+      </div>
+
+      <div class="publication-authors">
+        {{ pub.authors }}
+      </div>
+
+      <div class="publication-venue">
+        {{ pub.venue }}
+      </div>
+
+      <div class="publication-links">
+
+        {% for link in pub.links %}
+
+          <a
+            href="{{ link.url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            [{{ link.label }}]
+          </a>
+
+        {% endfor %}
+
+      </div>
+
+    </div>
+
+  </div>
+
+  {% endfor %}
 
 </div>
