@@ -26,11 +26,11 @@ title:
       Hello
     </p>
 
-    <div class="social-links">
+    <p class="contact-info">
+      dhkim.dhkim.dhkim at gmail dot com
+    </p>
 
-      <a href="mailto:dhkim.dhkim.dhkim@gmail.com">
-        Email
-      </a>
+    <div class="social-links">
 
       <a
         href="https://scholar.google.com/citations?user=vUw2_e0AAAAJ&hl=ko"
