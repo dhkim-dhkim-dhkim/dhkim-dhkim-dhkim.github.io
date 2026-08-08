@@ -3,7 +3,7 @@ journal:
   - title: "Suppressing Stitching Errors in Full-Sensor-Plane Color Routers via Optical Structural Similarity"
     authors: "<strong>Donghyun Kim</strong>, J. Han, S. Lee, M. S. Jang, and H. Chung"
     venue: "Nanophotonics, Vol. 15, No. 14, 2026"
-    image: "/assets/images/publications/color-router.png"
+    image: "/assets/images/publications/2026-Nanophotonics-OSS.png"
     links:
       - label: "Paper"
         url: "https://doi.org/10.1002/nap2.70220"
@@ -14,7 +14,7 @@ preprint:
   - title: "Scaling Limits of Multichannel Spectral Routers for Snapshot Imaging"
     authors: "J. Han, S. Lee, <strong>Donghyun Kim</strong>, and H. Chung"
     venue: "arXiv preprint, 2026"
-    image: "/assets/images/publications/scaling-limits.png"
+    image: "/assets/images/publications/2026-arXiv-Hyperspectral.png"
     links:
       - label: "arXiv"
         url: "https://arxiv.org/abs/2607.23508"
