@@ -41,7 +41,7 @@ title:
       </a>
 
       <a
-        href="/files/Donghyun_Kim_CV.pdf"
+        href="/Donghyun_Kim_CV.pdf"
         target="_blank"
       >
         CV
