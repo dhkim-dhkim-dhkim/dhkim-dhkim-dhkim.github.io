@@ -62,32 +62,38 @@ title:
   <div class="interest-grid">
 
     <div class="interest-card">
+
       <h3>Inverse Design</h3>
 
       <p>
         Adjoint optimization and fabrication-aware
         computational design of photonic devices.
       </p>
+
     </div>
 
 
     <div class="interest-card">
+
       <h3>Nanophotonics</h3>
 
       <p>
         Computational study and engineering of
         nanoscale light–matter interactions.
       </p>
+
     </div>
 
 
     <div class="interest-card">
+
       <h3>Integrated Photonics</h3>
 
       <p>
         Computational design of compact and scalable
         photonic integrated devices.
       </p>
+
     </div>
 
   </div>
@@ -158,6 +164,20 @@ title:
       “Suppressing Stitching Errors in Full-Sensor-Plane Color Routers via
       Optical Structural Similarity” was published in
       <em>Nanophotonics</em> (IF: 6.8, JCR Top ~15%).
+    </span>
+
+  </div>
+
+
+  <div class="news-item">
+
+    <span class="news-date">
+      Jun 2026
+    </span>
+
+    <span>
+      I joined the META Lab at MIT, led by Dr. Svetlana Boriskina,
+      as a visiting student.
     </span>
 
   </div>
