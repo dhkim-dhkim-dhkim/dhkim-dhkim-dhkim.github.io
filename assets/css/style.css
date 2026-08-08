@@ -188,7 +188,7 @@ a {
 }
 
 
-/* ---------- Research interests ---------- */
+/* ---------- Research Interests ---------- */
 
 .interest-grid {
   display: grid;
@@ -216,54 +216,27 @@ a {
 }
 
 
-/* ---------- Publications ---------- */
+/* ---------- Education ---------- */
 
-.publication {
+.education-item {
   display: grid;
+  grid-template-columns: 140px 1fr;
 
-  grid-template-columns: 150px 1fr;
+  gap: 20px;
 
-  gap: 26px;
-
-  margin-bottom: 34px;
+  margin-bottom: 20px;
 }
 
-.publication img {
-  width: 150px;
-
-  border-radius: 3px;
-
-  border: 1px solid var(--border);
-}
-
-.publication-title {
-  font-weight: 600;
-
-  line-height: 1.4;
-
-  margin-bottom: 5px;
-}
-
-.publication-authors {
-  font-size: 15px;
-
-  margin-bottom: 4px;
-}
-
-.publication-venue {
+.education-year {
   color: var(--muted);
-
   font-size: 15px;
 
-  margin-bottom: 7px;
+  padding-top: 2px;
 }
 
-.publication-links a {
-  margin-right: 13px;
-
-  font-size: 14px;
-
-  text-decoration: none;
+.education-content {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 
@@ -283,6 +256,47 @@ a {
 
 .news-date {
   color: var(--muted);
+}
+
+
+/* ---------- Publications Page ---------- */
+
+.pub-entry {
+  margin-bottom: 42px;
+}
+
+.pub-title {
+  font-size: 18px;
+  font-weight: 600;
+
+  line-height: 1.45;
+
+  margin-bottom: 5px;
+}
+
+.pub-authors {
+  font-size: 16px;
+
+  margin-bottom: 3px;
+}
+
+.pub-venue {
+  font-size: 16px;
+  color: var(--muted);
+
+  margin-bottom: 5px;
+}
+
+.pub-links {
+  font-size: 15px;
+}
+
+.pub-links a {
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  text-decoration: underline;
 }
 
 
@@ -343,43 +357,8 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .publication {
+  .education-item {
     grid-template-columns: 1fr;
+    gap: 3px;
   }
-}
-
-/* ---------- Publications page ---------- */
-
-.pub-entry {
-  margin-bottom: 42px;
-}
-
-.pub-title {
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.45;
-  margin-bottom: 5px;
-}
-
-.pub-authors {
-  font-size: 16px;
-  margin-bottom: 3px;
-}
-
-.pub-venue {
-  font-size: 16px;
-  color: var(--muted);
-  margin-bottom: 5px;
-}
-
-.pub-links {
-  font-size: 15px;
-}
-
-.pub-links a {
-  text-decoration: none;
-}
-
-.pub-links a:hover {
-  text-decoration: underline;
 }
