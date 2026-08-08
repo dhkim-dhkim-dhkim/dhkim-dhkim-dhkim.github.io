@@ -140,8 +140,9 @@ title:
     </span>
 
     <span>
-      Our work on full-sensor-plane color routers was
-      selected as a cover feature in <em>Nanophotonics</em>.
+      “Suppressing Stitching Errors in Full-Sensor-Plane Color Routers via
+      Optical Structural Similarity” was selected as a cover feature in
+      <em>Nanophotonics</em>.
     </span>
 
   </div>
@@ -154,8 +155,9 @@ title:
     </span>
 
     <span>
-      Our paper on suppressing stitching errors in color routers
-      was published in <em>Nanophotonics</em>.
+      “Suppressing Stitching Errors in Full-Sensor-Plane Color Routers via
+      Optical Structural Similarity” was published in
+      <em>Nanophotonics</em> (IF: 6.8, JCR Top ~15%).
     </span>
 
   </div>
