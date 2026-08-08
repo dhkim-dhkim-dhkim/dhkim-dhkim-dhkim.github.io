@@ -7,44 +7,24 @@ title:
 
   <div>
     <img
-      src="/assets/images/profile.png"
+      src="{{ '/assets/images/profile.png' | relative_url }}"
       alt="Donghyun Kim"
       class="profile-photo"
     >
   </div>
-
 
   <div class="hero-content">
 
     <h1>Donghyun Kim</h1>
 
     <div class="affiliation">
-
-      Visiting Student, MIT META Lab<br>
-
-      Electronic Engineering,
-      Hanyang University
-
+      Visiting Student, MIT<br>
+      Graduate Student, Hanyang University
     </div>
 
-
     <p class="intro">
-
-      I am interested in computational nanophotonics,
-      with a particular focus on inverse design,
-      light–matter interactions, and photonic integrated circuits.
-
+      Hello
     </p>
-
-
-    <p class="intro">
-
-      My research explores computational approaches for designing
-      nanophotonic structures and understanding optical phenomena
-      across free-space and integrated photonic platforms.
-
-    </p>
-
 
     <div class="social-links">
 
@@ -52,18 +32,18 @@ title:
         Email
       </a>
 
-      <a href="#" target="_blank">
+      <a
+        href="https://scholar.google.com/citations?user=vUw2_e0AAAAJ&hl=ko"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Google Scholar
       </a>
 
       <a
-        href="https://github.com/dhkim-dhkim-dhkim"
+        href="/files/Donghyun_Kim_CV.pdf"
         target="_blank"
       >
-        GitHub
-      </a>
-
-      <a href="/cv/">
         CV
       </a>
 
@@ -72,7 +52,6 @@ title:
   </div>
 
 </section>
-
 
 
 <section>
@@ -121,53 +100,9 @@ title:
 </section>
 
 
-
-<section>
-
-  <h2>Selected Publications</h2>
-
-
-  <div class="publication">
-
-    <div></div>
-
-    <div>
-
-      <div class="publication-title">
-        Suppressing Stitching Errors in Full-Sensor-Plane
-        Color Routers via Optical Structural Similarity
-      </div>
-
-      <div class="publication-authors">
-        <strong>D. Kim</strong>, J. Han, S. Lee,
-        M. S. Jang, and H. Chung
-      </div>
-
-      <div class="publication-venue">
-        Nanophotonics, 2026
-      </div>
-
-      <div class="publication-links">
-
-        <a href="https://doi.org/10.1002/nap2.70220"
-           target="_blank">
-          Paper
-        </a>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-
 <section>
 
   <h2>News</h2>
-
 
   <div class="news-item">
 
