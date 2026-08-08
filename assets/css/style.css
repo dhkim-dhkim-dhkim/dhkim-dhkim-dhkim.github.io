@@ -220,7 +220,7 @@ a {
 
 .education-item {
   display: grid;
-  grid-template-columns: 140px 1fr;
+  grid-template-columns: 160px 1fr;
 
   gap: 20px;
 
@@ -259,43 +259,91 @@ a {
 }
 
 
-/* ---------- Publications Page ---------- */
+/* ---------- Publications ---------- */
 
-.pub-entry {
+.publications-page h1 {
   margin-bottom: 42px;
 }
 
-.pub-title {
+.publications-page h2 {
+  margin-top: 46px;
+  margin-bottom: 28px;
+}
+
+.publication-entry {
+  display: grid;
+
+  grid-template-columns: 210px 1fr;
+
+  gap: 30px;
+
+  align-items: center;
+
+  margin-bottom: 44px;
+}
+
+.publication-image {
+  width: 210px;
+  height: 155px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  background: #ffffff;
+}
+
+.publication-image img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+.publication-info {
+  min-width: 0;
+}
+
+.publication-title {
   font-size: 18px;
   font-weight: 600;
 
   line-height: 1.45;
 
+  margin-bottom: 8px;
+}
+
+.publication-authors {
+  font-size: 15px;
+
+  line-height: 1.5;
+
   margin-bottom: 5px;
 }
 
-.pub-authors {
-  font-size: 16px;
-
-  margin-bottom: 3px;
-}
-
-.pub-venue {
-  font-size: 16px;
+.publication-venue {
   color: var(--muted);
 
-  margin-bottom: 5px;
-}
-
-.pub-links {
   font-size: 15px;
+
+  margin-bottom: 8px;
 }
 
-.pub-links a {
+.publication-links {
+  font-size: 14px;
+}
+
+.publication-links a {
+  margin-right: 10px;
+
   text-decoration: none;
 }
 
-.pub-links a:hover {
+.publication-links a:hover {
   text-decoration: underline;
 }
 
@@ -360,5 +408,17 @@ a {
   .education-item {
     grid-template-columns: 1fr;
     gap: 3px;
+  }
+
+  .publication-entry {
+    grid-template-columns: 1fr;
+
+    gap: 18px;
+  }
+
+  .publication-image {
+    width: 100%;
+    max-width: 300px;
+    height: 190px;
   }
 }
