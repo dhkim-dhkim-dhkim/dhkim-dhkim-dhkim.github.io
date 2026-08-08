@@ -43,6 +43,7 @@ title:
       <a
         href="/Donghyun_Kim_CV.pdf"
         target="_blank"
+        rel="noopener noreferrer"
       >
         CV
       </a>
@@ -61,38 +62,66 @@ title:
   <div class="interest-grid">
 
     <div class="interest-card">
-
       <h3>Inverse Design</h3>
 
       <p>
         Adjoint optimization and fabrication-aware
         computational design of photonic devices.
       </p>
-
     </div>
 
 
     <div class="interest-card">
-
       <h3>Nanophotonics</h3>
 
       <p>
         Computational study and engineering of
         nanoscale light–matter interactions.
       </p>
-
     </div>
 
 
     <div class="interest-card">
-
       <h3>Integrated Photonics</h3>
 
       <p>
         Computational design of compact and scalable
         photonic integrated devices.
       </p>
+    </div>
 
+  </div>
+
+</section>
+
+
+<section>
+
+  <h2>Education</h2>
+
+  <div class="education-item">
+
+    <div class="education-year">
+      2026 – Present
+    </div>
+
+    <div class="education-content">
+      <strong>M.S. in Electronic Engineering</strong><br>
+      Hanyang University
+    </div>
+
+  </div>
+
+
+  <div class="education-item">
+
+    <div class="education-year">
+      2021 – 2026
+    </div>
+
+    <div class="education-content">
+      <strong>B.S. in Electronic Engineering</strong><br>
+      Hanyang University
     </div>
 
   </div>
