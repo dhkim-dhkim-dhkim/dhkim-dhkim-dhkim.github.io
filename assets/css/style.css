@@ -173,7 +173,8 @@ a {
 
 .intro {
   max-width: 650px;
-  margin-bottom: 10px;
+
+  margin-bottom: 8px;
 }
 
 .contact-info {
@@ -457,9 +458,9 @@ a {
 }
 
 
-/* ---------- Outside Research ---------- */
+/* ---------- Personal Interests ---------- */
 
-.outside-page {
+.personal-page {
   max-width: 800px;
 }
 
