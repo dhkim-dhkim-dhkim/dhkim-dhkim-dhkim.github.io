@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Outside Research
-permalink: /outside-research/
+title: Personal Interests
+permalink: /personal-interests/
 ---
 
 <div class="page outside-page">
 
-  <h1>Outside Research</h1>
+  <h1>Personal Interests</h1>
 
   <p class="page-lead">
     More coming soon.
