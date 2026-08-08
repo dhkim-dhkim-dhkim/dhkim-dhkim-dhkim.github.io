@@ -1,8 +1,15 @@
-# cv.md
 ---
-layout: page
+layout: default
 title: CV
 permalink: /cv/
 ---
 
-CV content coming soon.
+<div class="page">
+
+# Curriculum Vitae
+
+My curriculum vitae is available below.
+
+[Download CV (PDF)](/files/Donghyun_Kim_CV.pdf)
+
+</div>
