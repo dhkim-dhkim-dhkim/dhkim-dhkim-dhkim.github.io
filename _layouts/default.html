@@ -35,9 +35,27 @@
       </a>
 
       <nav class="nav-links">
-        <a href="/">Home</a>
-        <a href="/research/">Research</a>
-        <a href="/publications/">Publications</a>
+
+        <a
+          href="/"
+          {% if page.url == "/" %}class="active"{% endif %}
+        >
+          Home
+        </a>
+
+        <a
+          href="/research/"
+          {% if page.url == "/research/" %}class="active"{% endif %}
+        >
+          Research
+        </a>
+
+        <a
+          href="/publications/"
+          {% if page.url == "/publications/" %}class="active"{% endif %}
+        >
+          Publications
+        </a>
 
         <a
           href="/Donghyun_Kim_CV.pdf"
@@ -46,6 +64,14 @@
         >
           CV
         </a>
+
+        <a
+          href="/outside-research/"
+          {% if page.url == "/outside-research/" %}class="active"{% endif %}
+        >
+          Outside Research
+        </a>
+
       </nav>
 
     </div>
