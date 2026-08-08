@@ -347,3 +347,39 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
+/* ---------- Publications page ---------- */
+
+.pub-entry {
+  margin-bottom: 42px;
+}
+
+.pub-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.45;
+  margin-bottom: 5px;
+}
+
+.pub-authors {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.pub-venue {
+  font-size: 16px;
+  color: var(--muted);
+  margin-bottom: 5px;
+}
+
+.pub-links {
+  font-size: 15px;
+}
+
+.pub-links a {
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  text-decoration: underline;
+}
