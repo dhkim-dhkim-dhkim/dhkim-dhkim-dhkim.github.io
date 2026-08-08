@@ -23,7 +23,7 @@ title:
     </div>
 
     <p class="intro">
-      Hello
+      Hello! Welcome to my website.
     </p>
 
     <p class="contact-info">
