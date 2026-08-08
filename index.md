@@ -7,7 +7,7 @@ title:
 
   <div>
     <img
-      src="/assets/images/profile.jpg"
+      src="/assets/images/profile.png"
       alt="Donghyun Kim"
       class="profile-photo"
     >
