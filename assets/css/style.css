@@ -162,36 +162,46 @@ a {
   min-width: 0;
 }
 
-.hero-heading-row {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
 
-  gap: 32px;
+/* Name + affiliation on the same row */
+
+.name-affiliation-row {
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+
+  gap: 26px;
 
   margin-bottom: 34px;
+
+  white-space: nowrap;
 }
 
-.hero-heading-row h1 {
+.name-affiliation-row h1 {
+  flex: 0 0 auto;
+
   margin: 0;
 
   font-size: 42px;
-
-  white-space: nowrap;
+  line-height: 1.05;
 }
 
 .affiliation {
+  flex: 0 0 auto;
+
   color: var(--muted);
 
-  font-size: 15px;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.55;
 
-  text-align: right;
+  text-align: left;
 
-  padding-top: 5px;
-
-  white-space: nowrap;
+  margin: 0;
 }
+
+
+/* Intro */
 
 .intro {
   max-width: 680px;
@@ -541,26 +551,22 @@ a {
     margin-bottom: 28px;
   }
 
-  .hero-heading-row {
+  .name-affiliation-row {
     display: block;
+
+    white-space: normal;
 
     margin-bottom: 28px;
   }
 
-  .hero-heading-row h1 {
+  .name-affiliation-row h1 {
     font-size: 35px;
-
-    white-space: normal;
   }
 
   .affiliation {
-    margin-top: 10px;
+    margin-top: 12px;
 
-    padding-top: 0;
-
-    text-align: left;
-
-    white-space: normal;
+    font-size: 14px;
   }
 
   .interest-grid {
