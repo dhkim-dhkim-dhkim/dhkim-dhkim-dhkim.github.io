@@ -186,6 +186,20 @@ title:
     </span>
 
     <span>
+      I graduated one semester early from Hanyang University with a B.S. in
+      Electronic Engineering.
+    </span>
+
+  </div>
+
+
+  <div class="news-item">
+
+    <span class="news-date">
+      Aug 2026
+    </span>
+
+    <span>
       “Suppressing Stitching Errors in Full-Sensor-Plane Color Routers via
       Optical Structural Similarity” was selected as a cover feature in
       <em>Nanophotonics</em>.
