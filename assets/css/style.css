@@ -220,25 +220,30 @@ a {
   font-size: 16px;
   line-height: 1.7;
 
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
-.contact-info {
-  color: var(--muted);
 
-  font-size: 14px;
+/* ---------- Links + Contact ---------- */
 
-  margin-top: 0;
-  margin-bottom: 18px;
+.hero-meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 30px;
+
+  max-width: 680px;
 }
 
 .social-links {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
 
-  gap: 9px 18px;
+  gap: 18px;
 
-  margin-top: 18px;
+  margin: 0;
 }
 
 .social-links a {
@@ -252,6 +257,22 @@ a {
 
 .social-links a:hover {
   text-decoration: underline;
+}
+
+.contact-inline {
+  color: var(--muted);
+
+  font-size: 13px;
+
+  white-space: nowrap;
+
+  text-align: right;
+}
+
+.contact-label {
+  color: var(--text);
+
+  font-weight: 500;
 }
 
 
@@ -627,6 +648,18 @@ a {
     padding-left: 0;
 
     border-left: none;
+
+    white-space: normal;
+  }
+
+  .hero-meta-row {
+    display: block;
+  }
+
+  .contact-inline {
+    margin-top: 12px;
+
+    text-align: left;
 
     white-space: normal;
   }
