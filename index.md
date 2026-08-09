@@ -15,7 +15,7 @@ title:
 
   <div class="hero-content">
 
-    <div class="hero-heading-row">
+    <div class="name-affiliation-row">
 
       <h1>Donghyun Kim</h1>
 
@@ -73,38 +73,32 @@ title:
   <div class="interest-grid">
 
     <div class="interest-card">
-
       <h3>Inverse Design</h3>
 
       <p>
         Adjoint optimization and fabrication-aware
         computational design of photonic devices.
       </p>
-
     </div>
 
 
     <div class="interest-card">
-
       <h3>Nanophotonics</h3>
 
       <p>
         Computational study and engineering of
         nanoscale light–matter interactions.
       </p>
-
     </div>
 
 
     <div class="interest-card">
-
       <h3>Integrated Photonics</h3>
 
       <p>
         Computational design of compact and scalable
         photonic integrated devices.
       </p>
-
     </div>
 
   </div>
