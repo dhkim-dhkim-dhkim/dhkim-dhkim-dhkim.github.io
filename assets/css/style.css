@@ -143,7 +143,7 @@ a {
   padding-bottom: 28px;
 
   display: grid;
-  grid-template-columns: 220px 1fr;
+  grid-template-columns: 220px minmax(0, 1fr);
 
   gap: 52px;
   align-items: start;
@@ -163,45 +163,40 @@ a {
 }
 
 
-/* Name + affiliation on the same row */
+/* ---------- Name + Affiliation ---------- */
 
-.name-affiliation-row {
-  display: flex;
+.identity-row {
+  display: grid;
+
+  grid-template-columns: auto 1fr;
+
+  column-gap: 28px;
 
   align-items: center;
-  justify-content: flex-start;
-
-  gap: 26px;
 
   margin-bottom: 34px;
-
-  white-space: nowrap;
 }
 
-.name-affiliation-row h1 {
-  flex: 0 0 auto;
-
+.identity-row h1 {
   margin: 0;
 
   font-size: 42px;
   line-height: 1.05;
+
+  white-space: nowrap;
 }
 
-.affiliation {
-  flex: 0 0 auto;
-
+.identity-affiliation {
   color: var(--muted);
 
   font-size: 14px;
   line-height: 1.55;
 
-  text-align: left;
-
-  margin: 0;
+  white-space: nowrap;
 }
 
 
-/* Intro */
+/* ---------- Intro ---------- */
 
 .intro {
   max-width: 680px;
@@ -551,22 +546,22 @@ a {
     margin-bottom: 28px;
   }
 
-  .name-affiliation-row {
+  .identity-row {
     display: block;
-
-    white-space: normal;
 
     margin-bottom: 28px;
   }
 
-  .name-affiliation-row h1 {
+  .identity-row h1 {
     font-size: 35px;
+
+    white-space: normal;
   }
 
-  .affiliation {
+  .identity-affiliation {
     margin-top: 12px;
 
-    font-size: 14px;
+    white-space: normal;
   }
 
   .interest-grid {
