@@ -168,10 +168,11 @@ a {
 .hero-content .identity-row {
   display: flex !important;
   flex-direction: row !important;
+
   align-items: center !important;
   justify-content: flex-start !important;
 
-  gap: 28px;
+  gap: 24px;
 
   width: 100%;
 
@@ -197,6 +198,10 @@ a {
   flex: 0 0 auto;
 
   margin: 0;
+
+  padding-left: 24px;
+
+  border-left: 1px solid #c7c9cc;
 
   color: var(--muted);
 
@@ -570,7 +575,11 @@ a {
   }
 
   .hero-content .identity-affiliation {
-    margin-top: 12px;
+    margin-top: 14px;
+
+    padding-left: 0;
+
+    border-left: none;
 
     white-space: normal;
   }
