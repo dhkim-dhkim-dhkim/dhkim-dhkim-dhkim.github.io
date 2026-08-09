@@ -15,11 +15,11 @@ title:
 
   <div class="hero-content">
 
-    <div class="name-affiliation-row">
+    <div class="identity-row">
 
       <h1>Donghyun Kim</h1>
 
-      <div class="affiliation">
+      <div class="identity-affiliation">
         Visiting Student, MIT<br>
         Graduate Student, Hanyang University
       </div>
@@ -183,6 +183,20 @@ title:
     <span>
       I joined the META Lab at MIT, led by Dr. Svetlana Boriskina,
       as a visiting student.
+    </span>
+
+  </div>
+
+
+  <div class="news-item">
+
+    <span class="news-date">
+      Mar 2025
+    </span>
+
+    <span>
+      I joined the EIDL at Hanyang University, led by Prof. Haejun Chung,
+      as an undergraduate researcher.
     </span>
 
   </div>
