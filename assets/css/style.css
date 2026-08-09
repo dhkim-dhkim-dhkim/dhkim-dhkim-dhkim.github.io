@@ -165,28 +165,39 @@ a {
 
 /* ---------- Name + Affiliation ---------- */
 
-.identity-row {
-  display: grid;
+.hero-content .identity-row {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
 
-  grid-template-columns: auto 1fr;
+  gap: 28px;
 
-  column-gap: 28px;
+  width: 100%;
 
-  align-items: center;
-
-  margin-bottom: 34px;
+  margin-bottom: 32px;
 }
 
-.identity-row h1 {
+.hero-content .identity-row h1 {
+  display: block;
+
+  flex: 0 0 auto;
+
   margin: 0;
 
   font-size: 42px;
-  line-height: 1.05;
+  line-height: 1;
 
   white-space: nowrap;
 }
 
-.identity-affiliation {
+.hero-content .identity-affiliation {
+  display: block;
+
+  flex: 0 0 auto;
+
+  margin: 0;
+
   color: var(--muted);
 
   font-size: 14px;
@@ -546,19 +557,19 @@ a {
     margin-bottom: 28px;
   }
 
-  .identity-row {
-    display: block;
+  .hero-content .identity-row {
+    display: block !important;
 
     margin-bottom: 28px;
   }
 
-  .identity-row h1 {
+  .hero-content .identity-row h1 {
     font-size: 35px;
 
     white-space: normal;
   }
 
-  .identity-affiliation {
+  .hero-content .identity-affiliation {
     margin-top: 12px;
 
     white-space: normal;
