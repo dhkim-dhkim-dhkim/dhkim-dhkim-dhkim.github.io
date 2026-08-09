@@ -263,6 +263,7 @@ a {
 
 .contact-inline {
   margin-left: auto;
+  margin-right: 18px;
 
   color: var(--muted);
 
@@ -678,6 +679,7 @@ a {
   .contact-inline {
     margin-top: 12px;
     margin-left: 0;
+    margin-right: 0;
 
     text-align: left;
 
