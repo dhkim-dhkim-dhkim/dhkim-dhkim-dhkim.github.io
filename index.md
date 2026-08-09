@@ -15,20 +15,31 @@ title:
 
   <div class="hero-content">
 
-    <h1>Donghyun Kim</h1>
+    <div class="hero-heading-row">
 
-    <div class="affiliation">
-      Visiting Student, MIT<br>
-      Graduate Student, Hanyang University
+      <h1>Donghyun Kim</h1>
+
+      <div class="affiliation">
+        Visiting Student, MIT<br>
+        Graduate Student, Hanyang University
+      </div>
+
     </div>
 
+
     <p class="intro">
-      Hello! Welcome to my website.
+      Hello! Welcome to my website. I am currently a visiting student at MIT
+      and a graduate student at Hanyang University. I am interested in pursuing
+      further graduate studies in photonics. Please feel free to reach out by
+      email if you would like to discuss research, photonics, or related
+      opportunities.
     </p>
+
 
     <p class="contact-info">
       dhkim.dhkim.dhkim at gmail dot com
     </p>
+
 
     <div class="social-links">
 
