@@ -20,8 +20,8 @@ title:
       <h1>Donghyun Kim</h1>
 
       <div class="identity-affiliation">
-        Visiting Student, MIT<br>
-        Graduate Student, Hanyang University
+        <div>Visiting Student, MIT</div>
+        <div>Graduate Student, Hanyang University</div>
       </div>
 
     </div>
@@ -73,32 +73,38 @@ title:
   <div class="interest-grid">
 
     <div class="interest-card">
+
       <h3>Inverse Design</h3>
 
       <p>
         Adjoint optimization and fabrication-aware
         computational design of photonic devices.
       </p>
+
     </div>
 
 
     <div class="interest-card">
+
       <h3>Nanophotonics</h3>
 
       <p>
         Computational study and engineering of
         nanoscale light–matter interactions.
       </p>
+
     </div>
 
 
     <div class="interest-card">
+
       <h3>Integrated Photonics</h3>
 
       <p>
         Computational design of compact and scalable
         photonic integrated devices.
       </p>
+
     </div>
 
   </div>
