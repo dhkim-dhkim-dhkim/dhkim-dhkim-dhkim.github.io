@@ -300,8 +300,10 @@ a {
 .interest-image {
   display: block;
 
-  width: 140px;
-  height: 140px;
+  width: 280px;
+  height: auto;
+
+  max-width: 100%;
 
   object-fit: contain;
 
