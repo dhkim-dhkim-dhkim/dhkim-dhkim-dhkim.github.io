@@ -36,28 +36,33 @@ title:
     </p>
 
 
-    <p class="contact-info">
-      dhkim.dhkim.dhkim at gmail dot com
-    </p>
+    <div class="hero-meta-row">
+
+      <div class="social-links">
+
+        <a
+          href="https://scholar.google.com/citations?user=vUw2_e0AAAAJ&hl=ko"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Google Scholar
+        </a>
+
+        <a
+          href="/Donghyun_Kim_CV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          CV
+        </a>
+
+      </div>
 
 
-    <div class="social-links">
-
-      <a
-        href="https://scholar.google.com/citations?user=vUw2_e0AAAAJ&hl=ko"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Google Scholar
-      </a>
-
-      <a
-        href="/Donghyun_Kim_CV.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        CV
-      </a>
+      <div class="contact-inline">
+        <span class="contact-label">Contact:</span>
+        dhkim.dhkim.dhkim at gmail dot com
+      </div>
 
     </div>
 
