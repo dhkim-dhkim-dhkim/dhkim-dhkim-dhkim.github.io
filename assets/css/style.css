@@ -158,23 +158,48 @@ a {
   border-radius: 4px;
 }
 
-.hero-content h1 {
-  margin-bottom: 12px;
+.hero-content {
+  min-width: 0;
+}
+
+.hero-heading-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  gap: 32px;
+
+  margin-bottom: 34px;
+}
+
+.hero-heading-row h1 {
+  margin: 0;
 
   font-size: 42px;
+
+  white-space: nowrap;
 }
 
 .affiliation {
-  font-size: 17px;
   color: var(--muted);
 
-  margin-bottom: 22px;
+  font-size: 15px;
+  line-height: 1.6;
+
+  text-align: right;
+
+  padding-top: 5px;
+
+  white-space: nowrap;
 }
 
 .intro {
-  max-width: 650px;
+  max-width: 680px;
 
-  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.7;
+
+  margin-bottom: 12px;
 }
 
 .contact-info {
@@ -516,8 +541,26 @@ a {
     margin-bottom: 28px;
   }
 
-  .hero-content h1 {
+  .hero-heading-row {
+    display: block;
+
+    margin-bottom: 28px;
+  }
+
+  .hero-heading-row h1 {
     font-size: 35px;
+
+    white-space: normal;
+  }
+
+  .affiliation {
+    margin-top: 10px;
+
+    padding-top: 0;
+
+    text-align: left;
+
+    white-space: normal;
   }
 
   .interest-grid {
