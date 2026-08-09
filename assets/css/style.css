@@ -296,6 +296,21 @@ a {
   padding-top: 14px;
 }
 
+.interest-image {
+  display: block;
+
+  width: 100%;
+  aspect-ratio: 1 / 1;
+
+  object-fit: cover;
+
+  margin-bottom: 16px;
+
+  border-radius: 4px;
+
+  background: #020914;
+}
+
 .interest-card h3 {
   margin-top: 0;
   margin-bottom: 8px;
