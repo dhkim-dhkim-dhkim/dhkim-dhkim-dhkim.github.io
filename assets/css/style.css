@@ -215,6 +215,7 @@ a {
 /* ---------- Intro ---------- */
 
 .intro {
+  width: 100%;
   max-width: 680px;
 
   font-size: 16px;
@@ -227,13 +228,14 @@ a {
 /* ---------- Links + Contact ---------- */
 
 .hero-meta-row {
+  width: 100%;
+  max-width: 680px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   gap: 30px;
-
-  max-width: 680px;
 }
 
 .social-links {
@@ -260,6 +262,8 @@ a {
 }
 
 .contact-inline {
+  margin-left: auto;
+
   color: var(--muted);
 
   font-size: 13px;
@@ -356,9 +360,6 @@ a {
 .research-page {
   padding-bottom: 90px;
 }
-
-
-/* ---------- Research Header ---------- */
 
 .research-header {
   max-width: 780px;
@@ -654,10 +655,14 @@ a {
 
   .hero-meta-row {
     display: block;
+
+    width: 100%;
+    max-width: 100%;
   }
 
   .contact-inline {
     margin-top: 12px;
+    margin-left: 0;
 
     text-align: left;
 
