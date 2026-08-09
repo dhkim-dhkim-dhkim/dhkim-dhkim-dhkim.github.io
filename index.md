@@ -79,6 +79,14 @@ title:
 
     <div class="interest-card">
 
+      <img
+        src="{{ '/assets/images/research/inverse-design.webp' | relative_url }}"
+        alt="Adjoint-based inverse design workflow with forward and adjoint simulations"
+        class="interest-image"
+        loading="lazy"
+        decoding="async"
+      >
+
       <h3>Inverse Design</h3>
 
       <p>
@@ -91,6 +99,14 @@ title:
 
     <div class="interest-card">
 
+      <img
+        src="{{ '/assets/images/research/nanophotonics.webp' | relative_url }}"
+        alt="Nanophotonic surface dispersing light across the visible spectrum"
+        class="interest-image"
+        loading="lazy"
+        decoding="async"
+      >
+
       <h3>Nanophotonics</h3>
 
       <p>
@@ -102,6 +118,14 @@ title:
 
 
     <div class="interest-card">
+
+      <img
+        src="{{ '/assets/images/research/integrated-photonics.webp' | relative_url }}"
+        alt="Optical field propagating through an integrated photonic device"
+        class="interest-image"
+        loading="lazy"
+        decoding="async"
+      >
 
       <h3>Integrated Photonics</h3>
 
